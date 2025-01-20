@@ -1,0 +1,18 @@
+<div class="navigation-container header">
+  <img src="assets/img/bonfire.png" alt="dark souls wiki logo" class="bonfire-logo">
+  <span class="h1">Dark Souls World</span>
+  <img src="assets/gif/bonfire1.gif" alt="bonfire gif" class="bonfire-gif">
+  <div class="links">
+    <li><a href="javascript:void(0)">Main</a></li>
+    <div class="dropdown">
+      <li class="dropbtn" (click)="toggleDropdown()">Games</li>
+      <ul class="dropdown-content" [class.show]="isDropdownOpen">
+        <li *ngFor="let game of dropdownOptions">
+          <a href="javascript:void(0)">{{ game }}</a>
+        </li>
+      </ul>
+    </div>
+
+    <li><a href="javascript:void(0)">About</a></li>
+  </div>
+</div>

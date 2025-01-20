@@ -1,0 +1,71 @@
+@media (max-width:2560px) {
+    .navigation-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15%;
+        background-color: var(--background-color);
+    }
+    .h1{
+        font-size: 24px;
+        font-family: var(--semi-bold-font);
+        text-transform: uppercase;
+        align-self: center;
+        justify-self: end;
+    }
+    .bonfire-logo, .bonfire-gif{
+        width: 100px;
+        height: 100px;
+    }
+
+    a {
+        text-decoration: none;
+        color:var(--dark-color);
+        display: block;
+
+        &:hover {
+            background-color: #c8c8c8;
+        }
+    }
+
+    .links 
+    {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        font-size: 24px;
+        font-weight: bolder;
+        align-items: center;
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color:var(--light-color);
+            min-width: 150px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+
+            li {
+                padding: 10px;
+                text-align: left;
+                list-style: none;
+
+
+            }
+        }
+
+        .show {
+            display: block;
+        }
+
+        .dropbtn {
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width:768px) {}
+
+@media (max-width:475px) {}

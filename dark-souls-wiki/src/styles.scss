@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@import "fonts";
+
+:root{
+    --dark-color:#000000;
+    --background-color:#EAEAEA;
+    --light-color:#ffff;
+    --background-image:url("../public/assets/img/ds-background-dark.jpg");
+    --font:'OptimusPrinceps';
+    --semi-bold-font:'OptimusPrincepsSemiBold';
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background: none;
+  }
+  
+body {
+    background-image: var(--background-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: var(--font);
+    list-style: none;
+}
+
