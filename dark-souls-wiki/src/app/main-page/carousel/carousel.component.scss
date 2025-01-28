@@ -9,3 +9,8 @@
         height: 460px;
     }
 }
+@media (max-width:1024px) {
+    ::ng-deep .p-galleria-item{
+        align-items: normal !important;
+    }
+}
