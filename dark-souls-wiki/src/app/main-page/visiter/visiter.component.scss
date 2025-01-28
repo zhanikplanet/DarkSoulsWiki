@@ -49,3 +49,11 @@
        grid-template-columns: 0 0 3%;
     }
 }
+
+@media (max-width:768px) {
+    .visiter-container{
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+    }
+}
