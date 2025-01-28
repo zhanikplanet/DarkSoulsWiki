@@ -1,0 +1,11 @@
+@media (max-width:2560px) {
+    .carousel{
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    ::ng-deep .p-galleria-content, ::ng-deep .p-galleria-items-container{
+        height: 460px;
+    }
+}

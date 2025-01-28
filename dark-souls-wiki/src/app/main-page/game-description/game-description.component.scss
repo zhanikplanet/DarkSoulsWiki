@@ -1,0 +1,28 @@
+@media (max-width:2560px) {
+    .game-description-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .game-description-image{
+        float: right;
+        margin: 10px 10px 50px 10px;
+        width: 400px;
+        height: 400px;
+        border-style: outset;
+        border-width: 15px;
+        background-color: gray;
+    }
+    .game-description-text{
+        font-size: x-large;
+    }
+    .game-description-subtitle{
+        text-align: center;
+        font-size: xx-large;
+    }
+    .hr {
+        z-index: 2;
+        margin: 1rem 0;
+        border: 1px solid var(--dark-color);
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+<div class="carousel">
+    <p-galleria [value]="images" [responsiveOptions]="responsiveOptions" [showItemNavigators]="true"
+        [showThumbnails]="false" [circular]="true"  [numVisible]="5">
+        <!-- Item Template -->
+        <ng-template #item let-item>
+            <img [src]="item.itemImageSrc" style="width: 100%; display: block; background-repeat: no-repeat; background-size: cover; background-position: center center;" />
+        </ng-template>
+
+        <!-- Caption Template -->
+        <ng-template #caption let-item>
+            <div style="padding: 1rem; text-align: center;">
+                <div class="text-xl mb-2 font-bold">{{ item.title }}</div>
+                <p class="text-gray-500">{{ item.alt }}</p>
+            </div>
+        </ng-template>
+    </p-galleria>
+</div>

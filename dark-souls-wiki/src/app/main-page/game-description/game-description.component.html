@@ -1,0 +1,8 @@
+<div class="game-description-container">
+    <div *ngFor="let item of descriptions; let index = index" class="game-description-item">
+        <img [src]="item.itemImageSrc" [alt]="item.alt" class="game-description-image">
+        <h3 class="game-description-subtitle">{{item.subtitle}}</h3>
+        <p class="game-description-text">{{item.text}} </p>
+        <hr class="hr">
+    </div>
+</div>

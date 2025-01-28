@@ -1,0 +1,9 @@
+@media (max-width:2560px){
+    .main-container{
+        display: flex;
+        justify-self: center;
+        width: 75%;
+        flex-wrap: wrap;
+        background-color: var(--light-color);
+    }
+}

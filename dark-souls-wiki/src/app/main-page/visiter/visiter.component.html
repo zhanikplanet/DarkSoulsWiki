@@ -1,0 +1,6 @@
+<div class="visiter-container">
+    <div *ngFor="let item of visiters; let index = index" class="visiter-item">
+        <img [src]="item.itemImageSrc" [alt]="item.alt" class="visiter-image">
+        <p-button [label]="item.visiterText" class="visiter-button"></p-button>
+    </div>
+</div>
